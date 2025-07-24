@@ -1,0 +1,105 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 65px;
+    font-family: 'Comic Sans MS', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+.searchInput {
+  background-color: #2a2a2a;
+  border: 2px solid #4f4f4f;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 24px;
+  padding: 15px 20px;
+  margin: 20px;
+  width: 400px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #ff6b6b;
+  background-color: #3a3a3a;
+  box-shadow: 0 0 15px rgba(255, 107, 107, 0.3);
+}
+
+.searchInput::placeholder {
+  color: #888888;
+  font-style: italic;
+}
+
+.enter-button {
+  
+  background-color: #ff6b6b;
+  border: 2px solid #ff5252;
+  outline: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 24px;
+  padding: 15px 30px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(255, 107, 107, 0.2);
+}
+
+.enter-button:hover {
+  background-color: #ff5252;
+  border-color: #ff3333;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(255, 107, 107, 0.4);
+}
+
+.enter-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(255, 107, 107, 0.3);
+}
+
+
+
+ 
+.back-button {
+  position: absolute;
+  top: 20px;     /* distance from top edge */
+  left: 20px;    /* distance from left edge */
+  background-color: #ff6b6b;
+  border: 2px solid #ff5252;
+  outline: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 24px;
+  padding: 15px 30px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(255, 107, 107, 0.2);
+}
+
+.back-button:hover {
+  background-color: #ff5252;
+  border-color: #ff3333;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(255, 107, 107, 0.4);
+}
+
+.back-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(255, 107, 107, 0.3);
+}
+
+
+
+ 

@@ -1,0 +1,97 @@
+body {
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+   font-family: 'Comic Sans MS', cursive;
+  font-size: 115px;
+
+}
+
+.search-button { 
+  background-color: #ff6b6b;
+  border: 2px solid #ff5252;
+  outline: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 24px;
+  padding: 15px 30px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(255, 107, 107, 0.2);
+}
+
+.search-button:hover {
+  background-color: #ff5252;
+  border-color: #ff3333;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(255, 107, 107, 0.4);
+}
+
+.search-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(255, 107, 107, 0.3);
+}
+
+
+
+ 
+.logout-button { 
+  background-color: #ff6b6b;
+  border: 2px solid #ff5252;
+  outline: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 24px;
+  padding: 15px 30px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(255, 107, 107, 0.2);
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+.logout-button:hover {
+  background-color: #ff5252;
+  border-color: #ff3333;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(255, 107, 107, 0.4);
+}
+
+.logout-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(255, 107, 107, 0.3);
+}
+.fnshop-button {
+  background-color: #ff6b6b;
+  border: 2px solid #ff5252;
+  outline: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 24px;
+  padding: 15px 30px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(255, 107, 107, 0.2);
+}
+
+.fnshop-button:hover {
+  background-color: #ff5252;
+  border-color: #ff3333;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(255, 107, 107, 0.4);
+}
+
+.fnshop-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(255, 107, 107, 0.3);
+}

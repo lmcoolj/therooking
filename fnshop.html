@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="fnshop.css">
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fortnite Item Shop </title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0e0e0e;
+      font-family: sans-serif;
+      color: white;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 20px 0;
+    }
+
+    .iframe-container {
+      width: 1000px;               /* Visible area */
+      height: 750px;
+      overflow: hidden;
+      position: relative;
+      margin: 0 auto;
+      border: 3px solid #444;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #000;
+    }
+
+    .iframe-container iframe {
+      position: absolute;
+      top: -59px;                 /* Adjust to center page */
+      left: -100px;
+      width: 1800px;              /* Large enough to hold full site */
+      height: 1400px;
+      border: none;
+      transform: scale(0.67);     /* Zoom out to fit the whole thing */
+      transform-origin: 0 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Fortnite Item Shop</h1>
+
+  <div class="iframe-container">
+    <iframe
+      src="https://www.fortnite.com/item-shop?lang=en-US"
+      title="Fortnite Item Shop"
+      sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+    ></iframe>
+  
+</div>
+<a href="rookhub.html" class="back-button" >Back</button>
+</body>
+</html>
